@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather App</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="main-div">
+          <div class="search">
+            <input type="text">
+            <button class="searchBtn"><img src="./img/search.png"/></button>
+          </div>
+          <div class="info">
+            <div class="wind">
+              <img src="./img/pngwing.png" style="width: 200px"/>
+              <h1 class="celcius">22<span>°C</span></h1>
+              
+              <h1 class="location">Tirupati</h>
+            </div>
+            <div class="wind-info">
+              <div class="humidity">
+                <img src="./img/humidity.png" style="width: 40px"/>
+                <p class="hum">50%</p>
+                <span>humidity</span>
+              </div>
+              <div class='speed'>
+                <img src="./img/wind.png" style="width: 40px"/>
+                <p class="windSpeed">151</p>
+                <spna>km/h wind</spna>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="App.js"></script>
+  </body>
+</html>
